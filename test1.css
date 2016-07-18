@@ -1,0 +1,27 @@
+﻿*{margin:0;
+padding: 0; }
+.header{
+	height: 150px;
+	background-color: red;
+}
+.nav{
+	height: 150px;
+	background-color: blue;
+}
+.footer{
+	height: 150px;
+	background-color: green;
+}
+@media screen and (min-width:752px)
+ and (max-width:1800px) {
+.header,.nav,.footer{
+	width: 33.33%;
+	float: left;
+}
+}
+@media screen and (min-width:100px)
+ and (max-width:751px){
+ .header,.nav,.footer{
+	width: 100%;
+}
+}
